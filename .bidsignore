@@ -4,3 +4,4 @@
 *_meg.eeg
 sub-emptyroom/
 sub-*/ses-*/meg/sub-*_ses-*_coordsystem.json
+.nemar/
