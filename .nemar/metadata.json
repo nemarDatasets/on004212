@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "THINGS-MEG",
-  "description": "THINGS-MEG is a large-scale magnetoencephalographic dataset comprising neural recordings from 4 participants viewing 22,448 unique images of 1,854 object concepts from the richly-annotated THINGS database. Participants performed an oddball detection task during rapid image presentation (1.5±0.2s) while maintaining central fixation, with eye-tracking monitoring and structural MRI acquired for source localization. This dataset is part of the multimodal THINGS-data initiative, enabling investigation of temporal dynamics of object representations and their relationship to visual and semantic processing.",
-  "methods_description": "Magnetoencephalographic recordings were collected while participants viewed naturalistic object images from the THINGS database presented in fast succession (1.5±0.2s) across 12 sessions. Participants performed an oddball detection task with occasional artificially-generated images to maintain engagement. Eye movements were monitored to ensure central fixation. T1-weighted MRI scans were acquired for cortical source localization.",
+  "description": "THINGS-MEG is a large-scale magnetoencephalographic dataset comprising neural recordings from 4 participants viewing 22,448 unique photographic images representing 1,854 object concepts from the THINGS database across 12 sessions. This MEG dataset is part of the multimodal THINGS-data collection, which integrates MEG recordings with behavioral judgments and complementary neuroimaging modalities (fMRI, behavioral data) to enable comprehensive investigation of visual and semantic object processing. The dataset includes structural MRI for source localization and eye-tracking data, providing rich temporal measurements of object representations.",
+  "methods_description": "Participants viewed representative subsets of THINGS images across 12 sessions while MEG was recorded. Images were presented in rapid succession (1.5±0.2s) with participants maintaining central fixation. An oddball detection task with artificially-generated images was used to maintain engagement. A subset of 200 images were repeated in each session. T1-weighted MRI scans were acquired for cortical source localization, and eye movements were monitored to verify fixation compliance.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -24,6 +24,9 @@
       "term": "MEG"
     },
     {
+      "term": "magnetoencephalography"
+    },
+    {
       "term": "object recognition"
     },
     {
@@ -36,7 +39,16 @@
       "term": "neural representations"
     },
     {
-      "term": "magnetoencephalography"
+      "term": "THINGS database"
+    },
+    {
+      "term": "source localization"
+    },
+    {
+      "term": "eye-tracking"
+    },
+    {
+      "term": "temporal dynamics"
     }
   ],
   "related_identifiers": [
@@ -65,6 +77,9 @@
     {
       "funder_name": "National Institute of Mental Health",
       "award_number": "93-M-0170"
+    },
+    {
+      "funder_name": "National Institute of Mental Health"
     }
   ],
   "resource_type_specific": "MEG Dataset",
