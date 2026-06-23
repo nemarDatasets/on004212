@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "THINGS-MEG",
+  "description": "THINGS-MEG is a large-scale magnetoencephalographic dataset comprising neural recordings from 4 participants viewing 22,448 unique images of 1,854 object concepts from the richly-annotated THINGS database. Participants performed an oddball detection task during rapid image presentation (1.5±0.2s) while maintaining central fixation, with eye-tracking monitoring and structural MRI acquired for source localization. This dataset is part of the multimodal THINGS-data initiative, enabling investigation of temporal dynamics of object representations and their relationship to visual and semantic processing.",
+  "methods_description": "Magnetoencephalographic recordings were collected while participants viewed naturalistic object images from the THINGS database presented in fast succession (1.5±0.2s) across 12 sessions. Participants performed an oddball detection task with occasional artificially-generated images to maintain engagement. Eye movements were monitored to ensure central fixation. T1-weighted MRI scans were acquired for cortical source localization.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -17,12 +19,27 @@
     "Maryam Vaziri-Pashkam": {},
     "Chris I. Baker": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004212.v3.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "MEG"
     },
+    {
+      "term": "object recognition"
+    },
+    {
+      "term": "visual processing"
+    },
+    {
+      "term": "semantic processing"
+    },
+    {
+      "term": "neural representations"
+    },
+    {
+      "term": "magnetoencephalography"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004212",
       "identifier_type": "URL",
@@ -37,15 +54,26 @@
       "identifier": "10.1371/journal.pone.0223792",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004212.v3.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
+  "funding_references": [
+    {
+      "funder_name": "National Institute of Mental Health",
+      "award_number": "93-M-0170"
+    }
+  ],
+  "resource_type_specific": "MEG Dataset",
   "modalities": [
     "meg",
     "anat"
   ],
-  "resource_type_specific": "MEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "1.1 TB (9743 files)"
   ],
   "formats": [
     ".DS_Store",
@@ -649,59 +677,8 @@
     ".segments",
     ".sh",
     ".tsv",
-    ".txt"
+    ".txt",
+    ".yml"
   ],
-  "description": "THINGS-MEG is a large-scale magnetoencephalographic dataset comprising dense neural recordings from participants viewing thousands of naturalistic object images from the THINGS database. The dataset includes MEG recordings from 4 participants viewing 22,448 unique images (a representative subset of the full THINGS database of 26,107 images) representing 1,854 object concepts across 12 sessions, complemented by structural MRI for source localization and eye-tracking data. This resource enables investigation of the temporal dynamics of visual and semantic object representations in the human brain.",
-  "methods_description": "Participants viewed THINGS images presented in rapid succession (1.5±0.2s) during MEG recording while maintaining central fixation. An oddball detection task with artificially-generated images was used to maintain engagement. A subset of 200 images was repeated in each session. T1-weighted MRI scans were acquired for cortical source localization, and eye movements were monitored throughout the experiment via MEG-based eye movement tracking.",
-  "keywords": [
-    {
-      "term": "MEG"
-    },
-    {
-      "term": "magnetoencephalography"
-    },
-    {
-      "term": "object recognition"
-    },
-    {
-      "term": "visual processing"
-    },
-    {
-      "term": "semantic processing"
-    },
-    {
-      "term": "neural representations"
-    },
-    {
-      "term": "THINGS database"
-    },
-    {
-      "term": "object concepts"
-    },
-    {
-      "term": "temporal dynamics"
-    },
-    {
-      "term": "source localization"
-    },
-    {
-      "term": "eye-tracking"
-    },
-    {
-      "term": "structural MRI"
-    },
-    {
-      "term": "multimodal"
-    },
-    {
-      "term": "naturalistic images"
-    }
-  ],
-  "funding_references": [
-    {
-      "funder_name": "National Institute of Mental Health",
-      "award_number": "93-M-0170"
-    }
-  ],
-  "source_hash": "564a34bb3cbbf68bfda60c7a51d98e308d60d9f5d1430903bd843cff94363b16"
+  "source_hash": "096371e33b6d828d59575aa1373f8167ae33d9809b5aa6bb41341acfdcee8f0c"
 }
