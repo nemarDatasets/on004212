@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004212-blue)](https://doi.org/10.82901/nemar.on004212)
+
 # THINGS-MEG
 
 Understanding object representations visual and semantic processing of objects requires a broad, comprehensive sampling of the objects in our visual world
