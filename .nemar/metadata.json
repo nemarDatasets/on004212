@@ -1,0 +1,37 @@
+{
+  "version": "2.0",
+  "dataset_id": "on004212",
+  "source": "openneuro",
+  "source_id": "ds004212",
+  "title": "THINGS-MEG",
+  "authors": {
+    "Martin N. Hebart": {},
+    "Oliver Contier": {},
+    "Lina Teichmann": {},
+    "Adam H. Rockter": {},
+    "Charles Zheng": {},
+    "Alexis Kidder": {},
+    "Anna Corriveau": {},
+    "Maryam Vaziri-Pashkam": {},
+    "Chris I. Baker": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds004212.v3.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.21",
+  "recording_modality": [
+    "anat",
+    "meg"
+  ],
+  "datatypes": [
+    "anat",
+    "meg"
+  ]
+}
